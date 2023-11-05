@@ -4,6 +4,7 @@ title: >-
 tags:
   - IFD
   - GAN
+  - VAE
 categories: IFD
 thumbnail: /images/The-Multiclass-Fault-Diagnosis-of-Wind-Turbine-Bearing-Based-on-Multisource-Signal-Fusion-and-Deep-Learning-Generative-Model/fig.1.png
 date: 2023-11-04 16:10:45
