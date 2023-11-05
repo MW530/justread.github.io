@@ -1,12 +1,12 @@
 ---
-title: >-
-  A-Time-Series-Transformer-based-method-for-the-rotating-machinery-fault-diagnosis
+title: A-Time-Series-Transformer-based-method-for-the-rotating-machinery-fault-diagnosis
 tags:
   - IFD
   - Transformer
 categories: IFD
 thumbnail: /images/A-Time-Series-Transformer-based-method-for-the-rotating-machinery-fault-diagnosis/fig.1.png
 date: 2023-11-03 15:26:25
+journal: Neurocomputing (IF:6)
 ---
 
 # 引言

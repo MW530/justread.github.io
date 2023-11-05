@@ -4306,13 +4306,16 @@
 		font-size: 0.8rem;
 	}
 	.page_title{
-		position: relative;
+		/* position: relative; */
+		display: flex;
 		width: 100%;
 		height:300px; 
+		justify-content: center;
+		align-items: center;
 		_height:expression(this.height > 400 ? "400px" : this.height);
 	}
 	.page_title h1{
-		position:absolute;
+		/* position:absolute; */
 		font-size: 3rem;
 		text-shadow:6px 5px 10px #000;
 		bottom:2px;
@@ -4321,16 +4324,18 @@
 		color:#eeeeee;
 	}
 	.page_title h2{
-		position:absolute;
+		/* position:absolute; */
+
 		font-size: 2rem;
 		font-weight: bold;
 		text-shadow:6px 5px 10px #000;
-		bottom:2px;
+		-webkit-text-stroke:1px #000;
+		/* bottom:2px; */
 		padding-left: 5%;
 		color:#eeeeee;
 	}
 	.page_title h3{
-		position:absolute;
+		/* position:absolute; */
 		font-size: 1rem;
 		font-weight: bold;
 		text-shadow:6px 5px 10px #000;
@@ -4421,6 +4426,7 @@
 	.post_page_title_img a{
 		position:absolute;
 		text-shadow:6px 5px 10px #000;
+		-webkit-text-stroke:1px #000;
 		padding-top: 20%;
 		border-bottom:none; 
 	}

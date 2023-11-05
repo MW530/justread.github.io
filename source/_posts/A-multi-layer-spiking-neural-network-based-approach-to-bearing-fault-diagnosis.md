@@ -6,6 +6,7 @@ tags:
 - spiking neural network
 categories: IFG
 thumbnail: /images/A-multi-layer-spiking-neural-network-based-approach-to-bearing-fault-diagnosis/fig.5.png
+journal: Reliability Engineering & System Safety (IF:8.1)
 ---
 
 # 引言

@@ -33,6 +33,13 @@
             <div class ="post_page_title_img" style="height: 25rem;background-image: url(<%= page.thumbnail %>);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
                 <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 ><%= page.title %></h2></a>
             </div>
+            <!-- Detail-Info -->
+            <div  style="padding: 20px 0 20px 40px; font-size: 15px; font-weight: bold;">
+                日期: <%-page.updated.format('MMMM Do YYYY, h:mm:ss a');%>
+                <br>
+                期刊: <%-page.journal%>
+            </div>
+            
             <!-- Post -->
             <div class="typo" style="padding: 3rem;">
                 <%-page.content%>

@@ -1,6 +1,5 @@
 ---
-title: >-
-  The-Multiclass-Fault-Diagnosis-of-Wind-Turbine-Bearing-Based-on-Multisource-Signal-Fusion-and-Deep-Learning-Generative-Model
+title: The-Multiclass-Fault-Diagnosis-of-Wind-Turbine-Bearing-Based-on-Multisource-Signal-Fusion-and-Deep-Learning-Generative-Model
 tags:
   - IFD
   - GAN
@@ -8,6 +7,7 @@ tags:
 categories: IFD
 thumbnail: /images/The-Multiclass-Fault-Diagnosis-of-Wind-Turbine-Bearing-Based-on-Multisource-Signal-Fusion-and-Deep-Learning-Generative-Model/fig.1.png
 date: 2023-11-04 16:10:45
+journal: IEEE TRANSACTIONS ON INSTRUMENTATION AND MEASUREMENT (IF:5.6)
 ---
 
 # 引言

@@ -1,6 +1,5 @@
 ---
-title: >-
-  Deep-discriminative-transfer-learning-network-for-cross-machine-fault-diagnosis
+title: Deep-discriminative-transfer-learning-network-for-cross-machine-fault-diagnosis
 tags:
   - IFD
   - Transfer learning
@@ -8,6 +7,7 @@ tags:
 categories: IFD
 thumbnail: /images/Deep-discriminative-transfer-learning-network-for-cross-machine-fault-diagnosis/fig.3.png
 date: 2023-11-04 20:32:07
+journal: Mechanical Systems and Signal Processing (IF:8.4)
 ---
 
 # 引言
