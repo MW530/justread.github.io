@@ -6,7 +6,7 @@ tags:
   - Transfer learning
   - Domain adaption
 categories: IFD
-thumbnail: https://xxxxxxxxxx.png
+thumbnail: /images/Deep-discriminative-transfer-learning-network-for-cross-machine-fault-diagnosis/fig.3.png
 date: 2023-11-04 20:32:07
 ---
 
@@ -38,7 +38,7 @@ date: 2023-11-04 20:32:07
 
    对于判别DA机制，由于两个决策边界之间有很大的决策裕度，错误分类的目标域特征仍然更接近于同一源域类别。因此，它们可以通过域混淆正确地重新分类，如图所示。第2（b）段。
 
-   ![fig.1](../images/Deep-discriminative-transfer-learning-network-for-cross-machine-fault-diagnosis/fig.1.png)
+   ![fig.1](/images/Deep-discriminative-transfer-learning-network-for-cross-machine-fault-diagnosis/fig.1.png)
 
 6. 通过以上分析和讨论，当前故障转移诊断中存在以下几个关键问题：
 
@@ -99,7 +99,7 @@ Cov_{T}= \frac{1}{n_{T}-1}\left(D_{S}^{T}D_{S}-\frac{1}{n_{T}}(I^{T}D_{T})^{T}(I
 
 所提出的DDTLN的结构如图3所示。由于细胞神经网络具有较强的特征学习能力，因此被用作特征提取器。网络参数如表1所示。可以看出，该表包括五个“Cov1D”块、一个全局平均池（GAP）层和两个完全连接（FC）层。每个“Cov1D”块由卷积层、批处理归一化（BN）层和最大池化层组成。GAP和BN可以加速网络收敛，缓解过拟合现象。
 
-![fig.3](../images/Deep-discriminative-transfer-learning-network-for-cross-machine-fault-diagnosis/fig.3.png)
+![fig.3](/images/Deep-discriminative-transfer-learning-network-for-cross-machine-fault-diagnosis/fig.3.png)
 
 ## Improved joint distribution adaptation
 
@@ -133,7 +133,7 @@ $\begin{gathered}L_{UDA}=DDM(T(X_S),T(X_T))+\sum_{c=1}^{c}DDM[P(Y_S=c)\cdot(T(X_
 
 ## I-Softmax loss
 
-![fig.5](../images/Deep-discriminative-transfer-learning-network-for-cross-machine-fault-diagnosis/fig.5.png)
+![fig.5](/images/Deep-discriminative-transfer-learning-network-for-cross-machine-fault-diagnosis/fig.5.png)
 
 对于多分类任务，Softmax函数由于其概率解释性和简单性而被广泛应用于神经网络中。**然而，在某些情况下，它仍然不能满足类内紧致性和类间可分性的要求。**因此，设计了一种新的I-Softmax损失来学习更多可分离的特征并提高迁移任务中的分数，其定义如下：
 
@@ -196,7 +196,7 @@ $L_all=L_W+\gamma L_{IJDA}$
 - RTS
 - SWJTU
 
-![Table2](../images/Deep-discriminative-transfer-learning-network-for-cross-machine-fault-diagnosis/Table2.png)
+![Table2](/images/Deep-discriminative-transfer-learning-network-for-cross-machine-fault-diagnosis/Table2.png)
 
 ## 实验结果
 
@@ -217,7 +217,7 @@ $L_all=L_W+\gamma L_{IJDA}$
 
 为了直观地展示从不同边际学习到的特征的判别能力，将这些特征从最后一个 FC 层投影到图 10 中的单位球体中。 可以看出，I-Softmax 带来了更严格的决策边界和更具区分度的分布。 与原始 Softmax 和 Soft-marginSoftmax 相比，I-Softmax 明确使类内距离变小，类间距离变大。
 
-![fig.10](../images/Deep-discriminative-transfer-learning-network-for-cross-machine-fault-diagnosis/fig.10.png)
+![fig.10](/images/Deep-discriminative-transfer-learning-network-for-cross-machine-fault-diagnosis/fig.10.png)
 
 
 
