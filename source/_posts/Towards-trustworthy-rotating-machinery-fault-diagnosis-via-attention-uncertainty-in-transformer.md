@@ -53,7 +53,7 @@ $\begin{aligned}L{\left(D,\theta\right)}&=\int q_\phi(\theta){\log p}{\left(D|\t
 
 其中 L1 是似然成本，表示模型与数据的拟合程度；L2 是复杂度成本，表示变分后验与给定先验之间的相似度。根据无偏蒙特卡罗估计法，ELBO 可以通过从变分后验分布$p(θ|D)$ 中提取 T 次模型参数来近似：
 
-![eq.7](../images/Towards-trustworthy-rotating-machinery-fault-diagnosis-via-attention-uncertainty-in-transformer/eq.7.png)
+![eq.7](/images/Towards-trustworthy-rotating-machinery-fault-diagnosis-via-attention-uncertainty-in-transformer/eq.7.png)
 
 其中$θ(t)$是第t次采样的模型参数。以$L(D,θ)$为优化目标训练BNN，以获得接近真实后验的变分后验。
 
@@ -63,7 +63,7 @@ $\begin{aligned}L{\left(D,\theta\right)}&=\int q_\phi(\theta){\log p}{\left(D|\t
 
 如图所示，2，所提出的ProFormer模型由卷积层、由多个ProFormer块堆叠的ProFormer编码器和由多个完全连接（FC）层堆叠的分类器组成。具体来说，ProFormer块由设计的概率注意力、多层感知器（MLP）、两个层归一化层和两个残差连接组成。
 
-![fig.2](../images/Towards-trustworthy-rotating-machinery-fault-diagnosis-via-attention-uncertainty-in-transformer/fig.2.png)
+![fig.2](/images/Towards-trustworthy-rotating-machinery-fault-diagnosis-via-attention-uncertainty-in-transformer/fig.2.png)
 
 
 
@@ -71,7 +71,7 @@ $\begin{aligned}L{\left(D,\theta\right)}&=\int q_\phi(\theta){\log p}{\left(D|\t
 
 所设计的概率注意力是所提出的ProFormer的核心，它可以取代缩放的点积注意力，赋予Transformer类似于BNN的特性。如图所示
 
-![fig.5](../images/Towards-trustworthy-rotating-machinery-fault-diagnosis-via-attention-uncertainty-in-transformer/fig.5.png)
+![fig.5](/images/Towards-trustworthy-rotating-machinery-fault-diagnosis-via-attention-uncertainty-in-transformer/fig.5.png)
 
 在所提出的概率注意力中，注意力权重不再是通过计算获得的确定值，而是从注意力权重的后验分布中采样的潜在随机变量。
 
@@ -79,7 +79,7 @@ $\begin{aligned}L{\left(D,\theta\right)}&=\int q_\phi(\theta){\log p}{\left(D|\t
 
 因此，对于数据集$D:=\{x_i,y_i\}^N_{i=1}$，需要建模的是每个输入$p(A|x,y)$的注意力权重的后验分布，其中$A=\{A_l\}_{l=1}^L$是来自所有ProFormer块的样本x的归一化注意力权重。
 
-![fig.4](../images/Towards-trustworthy-rotating-machinery-fault-diagnosis-via-attention-uncertainty-in-transformer/fig.4.png)
+![fig.4](/images/Towards-trustworthy-rotating-machinery-fault-diagnosis-via-attention-uncertainty-in-transformer/fig.4.png)
 
 # 实验
 
@@ -90,4 +90,4 @@ $\begin{aligned}L{\left(D,\theta\right)}&=\int q_\phi(\theta){\log p}{\left(D|\t
 1. Tsinghua University on planetary gearbox faults for wind turbine
 2. collected using QPZZ-II bearing fault
 
-![fig.12](../images/Towards-trustworthy-rotating-machinery-fault-diagnosis-via-attention-uncertainty-in-transformer/fig.12.png)
+![fig.12](/images/Towards-trustworthy-rotating-machinery-fault-diagnosis-via-attention-uncertainty-in-transformer/fig.12.png)
