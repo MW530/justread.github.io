@@ -2,10 +2,10 @@
 title: >-
   Towards-trustworthy-rotating-machinery-fault-diagnosis-via-attention-uncertainty-in-transformer
 tags:
-  - 标签1
-categories: Algorithm
-thumbnail: https://xxxxxxxxxx.png
-journal: xxx
+  - IFD
+categories: IFD
+thumbnail: /images/Towards-trustworthy-rotating-machinery-fault-diagnosis-via-attention-uncertainty-in-transformer/fig.2.png
+journal: Journal of Manufacturing Systems(IF:12.1)
 date: 2023-11-05 19:13:46
 ---
 

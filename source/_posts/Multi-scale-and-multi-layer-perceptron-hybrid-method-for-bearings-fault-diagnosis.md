@@ -4,7 +4,7 @@ title: >-
 tags:
   - IFD
 categories: IFD
-thumbnail: /images/Multi-scale-and-multi-layer-perceptron-hybrid-method-for-bearings-fault-diagnosis/fig. 1.png
+thumbnail: /images/Multi-scale-and-multi-layer-perceptron-hybrid-method-for-bearings-fault-diagnosis/fig.1.png
 journal: The International Journal of Mechanical Sciences (IF:7.3)
 date: 2023-11-09 20:52:50
 ---
@@ -31,7 +31,9 @@ date: 2023-11-09 20:52:50
 
 下图是本文提出算法的结构图：
 
-![fig. 1](/images/Multi-scale-and-multi-layer-perceptron-hybrid-method-for-bearings-fault-diagnosis/fig. 1.png)
+![fig. 1](/images/Multi-scale-and-multi-layer-perceptron-hybrid-method-for-bearings-fault-diagnosis/fig.1.png)
+
+
 
 1. 首先，利用滑动窗口对轴承振动信号进行分割。然后，使用递归绘图方法将样本转换为二维数据。
 

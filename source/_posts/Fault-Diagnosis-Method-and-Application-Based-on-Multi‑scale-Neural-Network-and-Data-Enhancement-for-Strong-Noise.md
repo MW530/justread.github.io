@@ -1,9 +1,9 @@
 ---
-title: "Fault Diagnosis Method and\_Application Based on\_Multi‑scale Neural Network and\_Data Enhancement for\_Strong Noise"
+title: "Fault-Diagnosis-Method-and-Application-Based-on-Multi‑scale-Neural-Network-and-Data Enhancement-for-Strong-Noise"
 tags:
   - IFD
 categories: IFD
-thumbnail: /images/Fault Diagnosis Method and Application Based on Multi‑scale Neural Network and Data Enhancement for Strong Noise/fig.3.png
+thumbnail: /images/Fault-Diagnosis-Method-and-Application-Based-on-Multi‑scale-Neural-Network-and-Data-Enhancement-for-Strong-Noise/fig.3.png
 journal: Journal of Vibration Engineering & Technologies (IF:2.7)
 date: 2023-11-09 23:02:19
 ---
@@ -25,7 +25,7 @@ date: 2023-11-09 23:02:19
 
 ## 网络
 
-![fig.1](/images/Fault Diagnosis Method and Application Based on Multi‑scale Neural Network and Data Enhancement for Strong Noise/fig.1.png)
+![fig.1](/images/Fault-Diagnosis-Method-and-Application-Based-on-Multi‑scale-Neural-Network-and-Data-Enhancement-for-Strong-Noise/fig.1.png)
 
 ## 数据增强
 
@@ -33,14 +33,13 @@ date: 2023-11-09 23:02:19
 
 1. 故障信号数据集构造（重采样）：使用大小为W的窗口对故障信号进行步长为S的单向重叠采样。采样的子信号（S1，S2，…，Sn）构成故障信号数据集（F1），并分为训练数据集（T1）和测试数据集（T2）。设L（t）为原始一维时域信号，Sn（t）是重叠采样后的子信号。n是子信号样本的数量。
 2. 故障信号数据集的增强。如图6所示，如图2（b）所示，随机选择训练数据集中的训练样本（T1）的1%，并将所选择的训练样本作为一个整体（T3）。数据集（T3）与不同强度的噪声信号（D1，D2，…，Dn）叠加，**以形成不同强度的噪音数据集**（N1，N2，…，Nn）。噪声数据集（N1，N2，…，Nn）和训练数据集（T1）被组合，并且组合的数据集替换原始训练数据集。由于添加了额外的噪声数据集，提高了训练数据集中样本的数量和多样性。
-
-![fig.2](/images/Fault Diagnosis Method and Application Based on Multi‑scale Neural Network and Data Enhancement for Strong Noise/fig.2.png)
+2. ![fig.2](/images/Fault-Diagnosis-Method-and-Application-Based-on-Multi‑scale-Neural-Network-and-Data-Enhancement-for-Strong-Noise/fig.2.png)
 
 # 实验
 
 实验流程图：
 
-![fig.3](/images/Fault Diagnosis Method and Application Based on Multi‑scale Neural Network and Data Enhancement for Strong Noise/fig.3.png)
+![fig.3](/images/Fault-Diagnosis-Method-and-Application-Based-on-Multi‑scale-Neural-Network-and-Data-Enhancement-for-Strong-Noise/fig.3.png)
 
 ## 数据集
 
@@ -52,7 +51,7 @@ dataset B：加了高斯噪声的CWRU数据集
 
 ## 结果
 
-![fig.7](/images/Fault Diagnosis Method and Application Based on Multi‑scale Neural Network and Data Enhancement for Strong Noise/fig.7.png)
+![fig.7](/images/Fault-Diagnosis-Method-and-Application-Based-on-Multi-scale-Neural-Network-and-Data-Enhancement-for-Strong-Noise/fig.7.png)
 
 # 总结
 

@@ -3,7 +3,7 @@ title: Dual-Path-Mixed-Domain-Residual-Threshold-Networks-for-Bearing-Fault-Diag
 tags:
   - IFD
 categories: IFD
-thumbnail: /images/Dual-Path-Mixed-Domain-Residual-Threshold-Networks-for-Bearing-Fault-Diagnosis/fig. 1.png
+thumbnail: /images/Dual-Path-Mixed-Domain-Residual-Threshold-Networks-for-Bearing-Fault-Diagnosis/fig.1.png
 journal: IEEE TRANSACTIONS ON INDUSTRIAL ELECTRONICS (IF:7.7)
 date: 2023-11-08 10:56:37
 ---
@@ -34,7 +34,7 @@ date: 2023-11-08 10:56:37
 
 在 CNN 方法中，每个特征通道都可视为输入数据的特征表示。通道注意机制衡量每个输入特征对当前目标任务的重要性，从而为目标任务选择更关键的信息。与通道注意机制不同，空间注意机制对输入特征的空间关系进行建模，并生成空间注意系数，从而使网络能够关注具有重要价值的局部特征。提出的多尺度 MMAB 由**通道注意块**、**空间注意块**和**多尺度 CNN** 组成，如图 1（a）中红框所示。整个 MMAB 结构以残差块 [16] 为基本组件。残差网络的特点是易于优化，并且可以随着网络深度的增加而提高泛化能力。残差块中使用了跳过连接来保护信息的完整性，并直接将输入信息迂回到输出端，从而缓解了深度神经网络中因深度增加而导致的梯度消失问题。
 
-![fig. 1](/images/Dual-Path-Mixed-Domain-Residual-Threshold-Networks-for-Bearing-Fault-Diagnosis/fig. 1.png)
+![fig. 1](/images/Dual-Path-Mixed-Domain-Residual-Threshold-Networks-for-Bearing-Fault-Diagnosis/fig.1.png)
 
 如左图（a）中，其主要结构如下：
 
@@ -107,7 +107,7 @@ $x$是输入数据，$T$是阈值。
 
 ## CWRU数据集上的结果
 
-![table. 6](/images/Dual-Path-Mixed-Domain-Residual-Threshold-Networks-for-Bearing-Fault-Diagnosis/table. 6.png)
+![table.6](/images/Dual-Path-Mixed-Domain-Residual-Threshold-Networks-for-Bearing-Fault-Diagnosis/table.6.png)
 
 
 
