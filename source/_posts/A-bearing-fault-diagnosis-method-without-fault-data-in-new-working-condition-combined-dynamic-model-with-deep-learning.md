@@ -6,7 +6,7 @@ tags:
 - IFD
 - zero-shot
 - GAN
-categories: IFG
+categories: IFD
 thumbnail: /images/A-bearing-fault-diagnosis-method-without-fault-data-in-new-working-condition-combined-dynamic-model-with-deep-learning/fig.12.png
 journal: Advanced Engineering Informatics (IF:8.8)
 ---

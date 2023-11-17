@@ -4,7 +4,7 @@ date: 2023-11-02 15:11:44
 tags: 
 - IFD
 - spiking neural network
-categories: IFG
+categories: IFD
 thumbnail: /images/A-multi-layer-spiking-neural-network-based-approach-to-bearing-fault-diagnosis/fig.5.png
 journal: Reliability Engineering & System Safety (IF:8.1)
 ---
