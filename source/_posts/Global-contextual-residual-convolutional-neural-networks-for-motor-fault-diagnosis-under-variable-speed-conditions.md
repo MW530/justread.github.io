@@ -5,7 +5,7 @@ title: >-
 tags:
   - IFD
 categories: IFD
-thumbnail: https://xxxxxxxxxx.png
+thumbnail: /images/Global contextual residual convolutional neural networks for motor fault diagnosis under variable-speed conditions/fig.4.png
 journal: Reliability Engineering & System Safety (IF:8.1)
 date: 2023-11-19 15:01:59
 ---
