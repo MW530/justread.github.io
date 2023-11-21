@@ -3,6 +3,8 @@ title: >-
   Multiple-hierarchical-compression-for-deep-neural-network-toward-intelligent-bearing-fault-diagnosis
 tags:
   - IFD
+  - Network Compression
+  - Light Weight Network
 categories: IFD
 thumbnail: /images/Multiple-hierarchical-compression-for-deep-neural-network-toward-intelligent-bearing-fault-diagnosis/fig.1.png
 journal: Engineering Applications of Artificial Intelligence(IF:8)
