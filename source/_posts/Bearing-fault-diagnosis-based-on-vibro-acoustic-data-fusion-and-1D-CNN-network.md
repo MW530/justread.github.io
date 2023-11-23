@@ -2,6 +2,7 @@
 title: Bearing-fault-diagnosis-based-on-vibro-acoustic-data-fusion-and-1D-CNN-network
 tags:
   - IFD
+  - multi-modal
 categories: IFD
 thumbnail: /images/Bearing-fault-diagnosis-based-on-vibro-acoustic-data-fusion-and-1D-CNN-network/fig.2.png
 journal: Measurement(IF:5.6)
