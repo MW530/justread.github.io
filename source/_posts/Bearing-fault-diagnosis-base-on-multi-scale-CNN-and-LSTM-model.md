@@ -5,7 +5,7 @@ tags:
   - CNN
   - Multi-scale
 categories: IFD
-thumbnail: https://xxxxxxxxxx.png
+thumbnail: /images/Bearing-fault-diagnosis-base-on-multi-scale-CNN-and-LSTM-model/fig.4.png)
 journal: Journal of Intelligent Manufacturing (IF:8.3)
 date: 2023-11-24 22:39:32
 ---
