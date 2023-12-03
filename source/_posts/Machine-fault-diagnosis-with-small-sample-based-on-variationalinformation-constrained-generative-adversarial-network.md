@@ -4,6 +4,7 @@ title: >-
 tags:
   - IFD
   - small samples
+  - GAN
 categories: IFD
 thumbnail: /images/Machine-fault-diagnosis-with-small-sample-based-on-variationalinformation-constrained-generative-adversarial-network/fig.3.png
 journal: Advanced Engineering Informatics (IF:8.8)
