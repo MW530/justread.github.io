@@ -53,7 +53,7 @@ CDBN 是一种无监督分层生成网络模型，可以自适应地从原始数
 
 ![fig.2](/images/A-novel-method-based-on-deep-transfer-unsupervised-learning-network-for-bearing-fault-diagnosis-under-variable-working-condition-of-unequal-quantity/fig.2.png)
 
-
+000000000000000000
 
 ### 多层可迁移特征差异
 
