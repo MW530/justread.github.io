@@ -5,7 +5,7 @@ tags:
   - Hardware
   - LLM
 categories: Hardware
-thumbnail: https://xxxxxxxxxx.png
+thumbnail: ../images/Hardware-Phi-1-5B-A-Large-Language-Model-Encodes-Hardware-Domain-Specific-Knowledge/training-loss.png
 journal: 2024 29th Asia and South Pacific Design Automation Conference (ASP-DAC)（CCF-C）
 date: 2024-08-01 16:55:25
 ---
@@ -47,7 +47,7 @@ Phi1.5[原文](https://arxiv.org/pdf/2309.05463)。结构与[Phi1](https://arxiv
 
 设备：双卡NVIDIA A100 80 GB
 
-![training loss](../images/Hardware-Phi-1-5B-A-Large-Language-Model-Encodes-Hardware-Domain-Specific-Knowledge/training loss.png)
+![training loss](../images/Hardware-Phi-1-5B-A-Large-Language-Model-Encodes-Hardware-Domain-Specific-Knowledge/training-loss.png)
 
 没有做具体的实验对比。
 
