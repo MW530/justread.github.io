@@ -3,6 +3,8 @@ title: On-Hardware-Security-Bug-Code-Fixes-by-Prompting-Large-Language-Models
 tags:
   - Hardware
   - LLM
+  - Repair
+  - Security
 categories: Hardware
 thumbnail: ../images/On-Hardware-Security-Bug-Code-Fixes-by-Prompting-Large-Language-Models/Experiment-framework.png
 journal: IEEE Transactions on Information Forensics and Security（CCF-A, IF6.3）
