@@ -4,7 +4,7 @@ tags:
   - FUZZ
   - Hardware
 categories: Hardware
-thumbnail: https://xxxxxxxxxx.png
+thumbnail: ../images/RFUZZ/Meta_Reset_Transformation.png
 journal: International Conference on Computer-Aided Design
 date: 2024-08-09 09:16:08
 ---
